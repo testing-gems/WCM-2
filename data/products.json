@@ -1,0 +1,203 @@
+{
+    "products": [{
+            "id": 6,
+            "title": "Gwolves Honeycomb Red",
+            "image": "images/products/mouse-y-teclados/gwolves.png",
+            "price": 19.799,
+            "category": "Mouse y Teclados"
+        },
+
+        {
+            "id": 3,
+            "title": "MSI Optix G27C led 27",
+            "image": "images/products/monitores/monitor-msi.png",
+            "price": 53.019,
+            "category": "Monitores"
+        },
+
+        {
+            "id": 4,
+            "title": "Benq Zowie Fk1-b Divina Pink",
+            "image": "images/products/mouse-y-teclados/zowie-divina.png",
+            "price": 25.836,
+            "category": "Mouse y Teclados"
+        },
+
+        {
+            "id": 8,
+            "title": "Razer Deathadder Chroma",
+            "image": "images/products/mouse-y-teclados/razer-deathadder.png",
+            "price": 20.549,
+            "category": "Mouse y Teclados"
+        },
+
+        {
+            "id": 5,
+            "title": "BenQ XL Series XL2411P led 24",
+            "image": "images/products/monitores/monitor-zowie.png",
+            "price": 54.999,
+            "category": "Monitores"
+        },
+
+        {
+            "id": 7,
+            "title": "Hyperx Quadcast",
+            "image": "images/products/auriculares-y-mic/mic-hyperx.png",
+            "price": 17.299,
+            "category": "Auriculares y Microfonos"
+        },
+
+
+        {
+            "id": 10,
+            "title": "HyperX Alloy Origins RGB",
+            "image": "images/products/mouse-y-teclados/teclado-hyperx.png",
+            "price": 12.999,
+            "category": "Mouse y Teclados"
+        },
+
+        {
+            "id": 11,
+            "title": "Redragon Mirror led 24",
+            "image": "images/products/monitores/monitor-redragon.png",
+            "price": 43.899,
+            "category": "Monitores"
+        },
+
+        {
+            "id": 13,
+            "title": "Benq Zowie Fk2-b Para Esports",
+            "image": "images/products/mouse-y-teclados/zowie-fk2.png",
+            "price": 11.499,
+            "category": "Mouse y Teclados"
+        },
+
+        {
+            "id": 12,
+            "title": "ViewSonic XG2530 led 24.5",
+            "image": "images/products/monitores/monitor-viewsonic.png",
+            "price": 89.289,
+            "category": "Monitores"
+        },
+
+        {
+            "id": 14,
+            "title": "Steelseries Siberia v2 PRO",
+            "image": "images/products/auriculares-y-mic/steelseries-siberiav2.png",
+            "price": 13.122,
+            "category": "Auriculares y Microfonos"
+        },
+
+        {
+            "id": 9,
+            "title": "Gigabyte G27F led 27",
+            "image": "images/products/monitores/monitor-gb.png",
+            "price": 56.619,
+            "category": "Monitores"
+        },
+
+        {
+            "id": 15,
+            "title": "Redragon Draconic K530",
+            "image": "images/products/mouse-y-teclados/teclado-redragon.png",
+            "price": 7.649,
+            "category": "Mouse y Teclados"
+        },
+        {
+            "id": 16,
+            "title": "Razer Kraken PRO",
+            "image": "images/products/auriculares-y-mic/razer-kraken.png",
+            "price": 10.699,
+            "category": "Auriculares y Microfonos"
+        },
+
+        {
+            "id": 17,
+            "title": "Razer Hammerhead",
+            "image": "images/products/auriculares-y-mic/razer-inear.png",
+            "price": 22.999,
+            "category": "Auriculares y Microfonos"
+        },
+
+        {
+            "id": 2,
+            "title": "Benq Zowie Ec2 Blanco Para Esports",
+            "image": "images/products/mouse-y-teclados/zowie-ec2.png",
+            "price": 12.499,
+            "category": "Mouse y Teclados"
+        },
+
+        {
+            "id": 18,
+            "title": "HyperX Pulsefire FPS Pro",
+            "image": "images/products/mouse-y-teclados/hyperx-pulsefire.png",
+            "price": 4.858,
+            "category": "Mouse y Teclados"
+        },
+
+        {
+            "id": 20,
+            "title": "HyperX Alloy FPS Pro",
+            "image": "images/products/mouse-y-teclados/teclado-alloyfps.png",
+            "price": 8.099,
+            "category": "Mouse y Teclados"
+        },
+
+        {
+            "id": 19,
+            "title": "Razer Seiren X Condensador",
+            "image": "images/products/auriculares-y-mic/mic-razer.png",
+            "price": 12.251,
+            "category": "Auriculares y Microfonos"
+        },
+
+        {
+            "id": 1,
+            "title": "Logitech G433 Usb Surround 7.1 ",
+            "image": "images/products/auriculares-y-mic/logitech-g433.png",
+            "price": 11.599,
+            "category":"Auriculares y Microfonos"
+        },
+
+        {
+            "id": 24,
+            "title": "Logitech G430",
+            "image": "images/products/auriculares-y-mic/logitech-g430.png",
+            "price": 6.139,
+            "category": "Auriculares y Microfonos"
+        },
+
+        {
+            "id": 21,
+            "title": "HyperX Cloud II Red",
+            "image": "images/products/auriculares-y-mic/hyperxcloud2.png",
+            "price": 11.199,
+            "category": "Auriculares y Microfonos"
+        },
+
+        {
+            "id": 25,
+            "title": "Hyperx Cloud Revolver S 7.1",
+            "image": "images/products/auriculares-y-mic/hyperx-revolver.png",
+            "price": 24.999,
+            "category":"Auriculares y Microfonos"
+        },
+
+        {
+            "id": 22,
+            "title": "Corsair HS50 Carbon",
+            "image": "images/products/auriculares-y-mic/corsair-carbon.png",
+            "price": 9.540,
+            "category": "Auriculares y Microfonos"
+        },
+        
+        {
+            "id": 23,
+            "title": "Corsair VOID PRO RGB",
+            "image": "images/products/auriculares-y-mic/corsair-void.png",
+            "price": 21.285,
+            "category": "Auriculares y Microfonos"
+        }
+
+    ]
+}

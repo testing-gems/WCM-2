@@ -1,0 +1,597 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <!-- Font  -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/3159526a31.js" crossorigin="anonymous"></script>
+  <!-- Glidejs Carousel  -->
+  <link rel="stylesheet" href="css\glide.core.min.css">
+  <link rel="stylesheet" href="css\glide.theme.min.css">
+  <!-- Animate on Scroll  -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Style  -->
+  <link rel="stylesheet" href="css\style.css">
+  <link rel="stylesheet" href="css\responsive.css">
+  <!-- Icon  -->
+  <link rel="icon" type="image/png" href="images/icon.ico">
+  <!-- Title  -->
+  <title>Gaming E-Commerce</title>
+</head>
+
+
+<body>
+
+  <!-- Navbar start -->
+  <header class="header" id="header">
+    <div>
+      <div class="navigation">
+        <div class="container">
+          <nav class="nav">
+            <div class="nav__hamburguer">
+              <i class="fas fa-bars whitetext" aria-hidden="true"></i>
+            </div>
+            <div class="nav__logo">
+              <a href="#" class="scroll-link whitetext">MARKET</a>
+            </div>
+            <div class="nav__menu">
+              <div class="menu__top">
+                <span class="nav__category whitetext">MARKET</span>
+                <a href="#" class="close__toggle">
+                  <i class="fas fa-times whitetext" aria-hidden="true"></i>
+                </a>
+              </div>
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a href="#header" class="nav__link scroll-link whitetext">Home</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#discounts" class="nav__link scroll-link whitetext">Discounts</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#category" class="nav__link scroll-link whitetext">Category</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#contact" class="nav__link scroll-link whitetext">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <div class="nav__icons">
+              <!-- Dark Mode Switch start -->
+              <button class="switch" id="switch">
+                <span class="switch__span"><i class="fas fa-sun"></i></span>
+                <span class="switch__span"><i class="fas fa-moon"></i></span>
+              </button>
+              <!-- Dark Mode Switch end -->
+              <a href="#" class="icon__item">
+                <i class="fas fa-search whitetext " aria-hidden="true"></i>
+              </a>
+              <a href="#" class="icon__item">
+                <i class="fas fa-shopping-cart whitetext" aria-hidden="true"></i>
+                <span id="cart__total">0</span>
+              </a>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Navbar end -->
+
+  <!-- Video area start -->
+  <div class="video__area">
+    <div class="hero__center">
+      <div class="hero__left whitetext">
+        <span>Enjoy the confort</span>
+        <h1>MAKE YOUR GAMING EXPERIENCE.</h1>
+        <p>Find everything you need</p>
+      </div>
+    </div>
+    <video id="video1" autoplay="" loop="" playsinline="" webkit-playsinline="" muted="" class="video" poster="">
+      <source src="images/video3.mp4" type="video/mp4">
+    </video>
+    <video id="video2" autoplay="" loop="" playsinline="" webkit-playsinline="" muted="" class="video" poster="">
+      <source src="images/video3.mp4" type="video/mp4">
+    </video>
+    <video id="video3" autoplay="" loop="" playsinline="" webkit-playsinline="" muted="" class="video" poster="">
+      <source src="images/video3.mp4" type="video/mp4">
+    </video>
+  </div>
+  <!-- Video area end -->
+
+  <!-- Main article start -->
+  <div id="main">
+    <section class="section collection" id="collection">
+      <div class="container">
+        <div class="collection__container">
+          <div class="collection__box">
+            <div class="img__container">
+              <img src="images\collection_02.png" class="collection_02">
+            </div>
+            <div class="collection__content">
+              <div class="collection__data">
+                <span>Most Viewed</span>
+                <h1>HEADSET</h1>
+                <a href="#">GET IT</a>
+              </div>
+            </div>
+          </div>
+          <div class="collection__box">
+            <div class="img__container">
+              <img src="images\collection_01.png" class="collection_01">
+            </div>
+            <div class="collection__content">
+              <div class="collection__data">
+                <span>144hz Gaming Monitors</span>
+                <h1>MONITORS</h1>
+                <a href="#">GET IT</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- Main article end -->
+
+  <!--- Discount Products start -->
+  <section class="section latest__products" id="discounts">
+    <div class="title__container">
+      <div class="section__title active" data-id="Latest Products">
+        <h1 class="primary__title">RUN TO THESE DISCOUNTS</h1>
+      </div>
+    </div>
+    <div class="container" data-aos="fade-up" data-aos-duration="1200">
+      <div class="glide" id="glide">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides latest-center">
+            <!-- Discount Products List -->
+            <li class="glide__slide">
+              <div class="product">
+                <div class="product__header">
+                  <img src="images/products/descuentos/auriculares.png" alt="product">
+                </div>
+
+                <div class="product__footer">
+                  <h3>Hyperx Cloud Stinger</h3>
+                  <div class="rating">
+                    <h4>$6.679</h4>
+                  </div>
+
+                  <div class="product__price">
+                    <h4>$5.599</h4>
+                  </div>
+                  <a href="#"><button type="submit" class="product__btn">ADD <i class="fas fa-shopping-cart"
+                        aria-hidden="true"></i> </button></a>
+                </div>
+                <ul>
+                  <li>
+                    <a data-tip="Quick View" data-place="left" href="#">
+                      <i class="far fa-eye"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a data-tip="Add To Wishlist" data-place="left" href="#">
+                      <i class="far fa-heart"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="glide__slide">
+              <div class="product">
+                <div class="product__header">
+                  <img src="images/products/descuentos/blackwidow.png" alt="product">
+                </div>
+                <div class="product__footer">
+                  <h3>Razer Blackwidow Chroma</h3>
+                  <div class="rating">
+                    <h4>$13.258</h4>
+                  </div>
+                  <div class="product__price">
+                    <h4>$12.299</h4>
+                  </div>
+                  <a href="#"><button type="submit" class="product__btn">ADD <i class="fas fa-shopping-cart"
+                        aria-hidden="true"></i> </button></a>
+                </div>
+                <ul>
+                  <li>
+                    <a href="#">
+                      <i class="far fa-eye"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="far fa-heart"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="glide__slide">
+              <div class="product">
+                <div class="product__header">
+                  <img src="images\products\descuentos\monitor.png" alt="product">
+                </div>
+                <div class="product__footer">
+                  <h3>Acer Predator 27 144hz</h3>
+                  <div class="rating">
+                    <h4>$122.199</h4>
+                  </div>
+                  <div class="product__price">
+                    <h4>$115.999</h4>
+                  </div>
+                  <a href="#"><button type="submit" class="product__btn">ADD <i class="fas fa-shopping-cart"
+                        aria-hidden="true"></i> </button></a>
+                </div>
+                <ul>
+                  <li>
+                    <a href="#">
+                      <i class="far fa-eye"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="far fa-heart"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="glide__slide">
+              <div class="product">
+                <div class="product__header">
+                  <img src="images\products\descuentos\mouse-g203.png" alt="product">
+                </div>
+                <div class="product__footer">
+                  <h3>Logitech G-203</h3>
+                  <div class="rating">
+                    <h4>$3.899</h4>
+                  </div>
+                  <div class="product__price">
+                    <h4>$2.999</h4>
+                  </div>
+                  <a href="#"><button type="submit" class="product__btn">ADD <i class="fas fa-shopping-cart"
+                        aria-hidden="true"></i> </button></a>
+                </div>
+                <ul>
+                  <li>
+                    <a href="#">
+                      <i class="far fa-eye"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="far fa-heart"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="glide__slide">
+              <div class="product">
+                <div class="product__header">
+                  <img src="images\products\descuentos\mouse.png" alt="product">
+                </div>
+                <div class="product__footer">
+                  <h3>Steelseries Sensei 310</h3>
+                  <div class="rating">
+                    <h4>$15.139</h4>
+                  </div>
+                  <div class="product__price">
+                    <h4>$13.999</h4>
+                  </div>
+                  <a href="#"><button type="submit" class="product__btn">ADD <i class="fas fa-shopping-cart"
+                        aria-hidden="true"></i> </button></a>
+                </div>
+                <ul>
+                  <li>
+                    <a href="#">
+                      <i class="far fa-eye"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="far fa-heart"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="glide__slide">
+              <div class="product">
+                <div class="product__header">
+                  <img src="images\products\descuentos\pad-logitech.png" alt="product">
+                </div>
+                <div class="product__footer">
+                  <h3>Logitech G240 SpeedGaming</h3>
+                  <div class="rating">
+                    <h4>$2.499</h4>
+                  </div>
+                  <div class="product__price">
+                    <h4>$2.000</h4>
+                  </div>
+                  <a href="#"><button type="submit" class="product__btn">ADD <i class="fas fa-shopping-cart"
+                        aria-hidden="true"></i> </button></a>
+                </div>
+                <ul>
+                  <li>
+                    <a href="#">
+                      <i class="far fa-eye"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="far fa-heart"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="glide__slide">
+              <div class="product">
+                <div class="product__header">
+                  <img src="images\products\descuentos\pad-razer.png" alt="product">
+                </div>
+                <div class="product__footer">
+                  <h3>Razer Firefly V2</h3>
+                  <div class="rating">
+                    <h4>$11.496</h4>
+                  </div>
+                  <div class="product__price">
+                    <h4>$10.999</h4>
+                  </div>
+                  <a href="#"><button type="submit" class="product__btn">ADD <i class="fas fa-shopping-cart"
+                        aria-hidden="true"></i> </button></a>
+                </div>
+                <ul>
+                  <li>
+                    <a href="#">
+                      <i class="far fa-eye"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="far fa-heart"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="glide__slide">
+              <div class="product">
+                <div class="product__header">
+                  <img src="images\products\descuentos\pad.png" alt="product">
+                </div>
+                <div class="product__footer">
+                  <h3>Hyperx Fury S Pro L</h3>
+                  <div class="rating">
+                    <h4>$2.999</h4>
+                  </div>
+                  <div class="product__price">
+                    <h4>$2.070</h4>
+                  </div>
+                  <a href="#"><button type="submit" class="product__btn">ADD <i class="fas fa-shopping-cart"
+                        aria-hidden="true"></i> </button></a>
+                </div>
+                <ul>
+                  <li>
+                    <a href="#">
+                      <i class="far fa-eye"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="far fa-heart"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="glide__slide">
+              <div class="product">
+                <div class="product__header">
+                  <img src="images\products\descuentos\razer-kitty.png" alt="product">
+                </div>
+                <div class="product__footer">
+                  <h3>Razer Kraken Kitty</h3>
+                  <div class="rating">
+                    <h4>$19.500</h4>
+                  </div>
+                  <div class="product__price">
+                    <h4>$18.999</h4>
+                  </div>
+                  <a href="#"><button type="submit" class="product__btn">ADD <i class="fas fa-shopping-cart"
+                        aria-hidden="true"></i> </button></a>
+                </div>
+                <ul>
+                  <li>
+                    <a href="#">
+                      <i class="far fa-eye"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="far fa-heart"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <!-- Discount Products list end -->
+      </div>
+    </div>
+  </section>
+  <!--- Discount Products end -->
+
+
+  <!-- Category Center start -->
+  <section class="category__section section" id="category">
+    <div class="tab__list">
+      <div class="title__container tabs">
+        <div class="section__titles category__titles ">
+          <div class="section__title filter-btn active" data-id="Todos">
+            <span class="dot"></span>
+            <h1 class="primary__title">All Products</h1>
+          </div>
+        </div>
+        <div class="section__titles">
+          <div class="section__title filter-btn" data-id="Mouse y Teclados">
+            <span class="dot"></span>
+            <h1 class="primary__title">Mouse & Keyboards</h1>
+          </div>
+        </div>
+
+        <div class="section__titles">
+          <div class="section__title filter-btn" data-id="Auriculares y Microfonos">
+            <span class="dot"></span>
+            <h1 class="primary__title">Headset & Mic</h1>
+          </div>
+        </div>
+
+        <div class="section__titles">
+          <div class="section__title filter-btn" data-id="Monitores">
+            <span class="dot"></span>
+            <h1 class="primary__title">Monitors</h1>
+          </div>
+        </div>
+
+      </div>
+      <div class="category__container" data-aos="fade-up" data-aos-duration="1200">
+        <div class="category__center">
+        </div>
+      </div>
+    </div>
+
+    </div>
+  </section>
+  <!-- Category Center end -->
+
+
+
+  <!-- PopUp start -->
+  <div class="popup hide__popup">
+    <div class="popup__content">
+      <div class="popup__close">
+        <i class="fas fa-times" aria-hidden="true"></i>
+      </div>
+      <div class="popup__left">
+        <div class="popup-img__container">
+          <img class="popup__img" src="./images/popup.jpg" alt="popup">
+        </div>
+      </div>
+      <div class="popup__right">
+        <div class="right__content">
+          <h1>Get at least <span class="desc">30%</span> discount!</h1>
+          <p>Suscribe now
+          </p>
+          <form action="#">
+            <input type="email" placeholder=" Enter email" class="popup__form">
+            <a href="#">Subscribe</a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- PopUp end -->
+
+  <!-- Go To Top start -->
+  <a href="#header" class="goto-top scroll-link">
+    <i class="fas fa-angle-double-up"></i>
+  </a>
+  <!-- Go To Top end -->
+
+  <!-- Facility Section start -->
+  <section class="facility__section section" id="facility">
+    <div class="container">
+      <div class="facility__contianer" data-aos="fade-up" data-aos-duration="1200">
+        <div class="facility__box">
+          <i class="fas fa-shipping-fast"></i>
+          <p>Shipping</p>
+        </div>
+
+        <div class="facility__box">
+          <i class="far fa-credit-card"></i>
+          <p>Warranty</p>
+        </div>
+
+        <div class="facility__box">
+
+          <i class="far fa-handshake"></i>
+
+          <p>Payment Methods</p>
+        </div>
+
+        <div class="facility__box">
+
+          <i class="fas fa-comments"></i>
+          <p>Online Advise</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  </div>
+  <!-- Facility Section end -->
+
+  <!-- Contact Section start -->
+  <section class="contact" id="contact">
+    <div class="map__section">
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26268.046812275952!2d-58.46223980214482!3d-34.61665499917543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3911f8ab2d%3A0x27b394c2f3d87d2d!2sCaballito%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1618154898744!5m2!1ses-419!2sar"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+    <div class="contact__section">
+      <div class="contact__container">
+        <h2>CONTACT US</h2>
+        <div class="contact__info">
+          <p><i class="fas fa-map-marker-alt"></i> .</p>
+          <p><i class="fas fa-phone-alt"></i> 4919-0000</p>
+          <p><i class="fab fa-whatsapp"></i> +54 9 11 3595-0702</p>
+          <p><i class="far fa-envelope"></i> @gmail.com</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact Section end -->
+
+  <!-- Footer start -->
+  <footer id="footer" class="section footer">
+    <div class="footer__text">
+      <h6>© 2024 – All Rights Reserved</h6>
+    </div>
+  </footer>
+  <!-- Footer end -->
+
+
+
+
+
+  <!-- Glidejs Carousel  -->
+  <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+
+  <!-- Animate on Scroll  -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      once: true,
+      mirror: false
+    });
+  </script>
+
+  <!-- Script  -->
+  <script src="js\index.js"></script>
+  <script src="js\products.js"></script>
+  <script src="js\slider.js"></script>
+
+</body>
+
+</html>
